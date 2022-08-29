@@ -32,8 +32,8 @@ vnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
 
 " Annotate. Show when each line was last edited and by whom.
 let g:WhichKeyDesc_GitVcs_Vcs_Annotate = "<leader>gvg annotate"
-nnoremap <leader>gvg    :action Annotate<CR>
-vnoremap <leader>gvg    :action Annotate<CR>
+nnoremap <leader>ga    :action Annotate<CR>
+vnoremap <leader>ga    :action Annotate<CR>
 
 " Show log (git log)
 let g:WhichKeyDesc_GitVcs_Vcs_Log = "<leader>gvl log"
