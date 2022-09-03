@@ -10,8 +10,8 @@ vnoremap <leader><Tab>    <Esc><C-S-6>
 
 " Open a new terminal window (use :! for a single shell cmd)
 let g:WhichKeyDesc_Leader_OpenShell = "<leader>! open-shell"
-nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
-vnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
+nnoremap <leader>!    :action ActivateTerminalToolWindow<CR>
+vnoremap <leader>!    :action ActivateTerminalToolWindow<CR>
 
 " Activate terminal window
 let g:WhichKeyDesc_Leader_OpenShell2 = "<leader>' ace-jump"
