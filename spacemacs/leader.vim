@@ -14,9 +14,9 @@ nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 vnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 
 " Activate terminal window
-let g:WhichKeyDesc_Leader_OpenShell2 = "<leader>' open-shell"
-nnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
-vnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
+let g:WhichKeyDesc_Leader_OpenShell2 = "<leader>' ace-jump"
+nnoremap <leader>'    :action AceAction<CR>
+vnoremap <leader>'    :action AceAction<CR>
 
 " Show usages for symbol.
 " Ideally this should be FindInPath the current word, but I think that it is
